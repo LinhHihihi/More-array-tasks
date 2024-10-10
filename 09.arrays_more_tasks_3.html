@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Members</title>
+</head>
+<body>
+
+    <h1>Club Members</h1>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" id="nameInput" />
+        <label>Age:</label>
+        <input type="number" id="ageInput" />
+        <input type="button" value="Submit" onclick="addMember()" />
+    </form>
+
+    <br/>
+    
+    <div id="divOutput"></div>
+
+    <br/>
+
+    <div>
+        <input type="button" value="Show Minors" onclick="showMinors()" />
+        <input type="button" value="Show Adults" onclick="showAdults()" />
+        <input type="button" value="Show oldest member(s)" onclick="showOldest()" />
+        <input type="button" value="Show youngest member(s)" onclick="showYoungest()" />
+    </div>
+
+    <br/>
+
+
+    <script src="09.arrays_more_tasks_3.js"></script>
+
+</body>
+</html>
